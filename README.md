@@ -17,3 +17,12 @@ The fileformat Schema (XSD is available [http://code.google.com/p/neobin/source/
 Both the fileformat, and the generated binary files can be read to and from <a href="http://code.google.com/p/neobin/">java</a>.
 
 Visit the <a href="http://code.google.com/p/neobin/">neobin-java</a> website to learn more about this format.
+
+
+The code is available at http://www.gopack.me
+<code>
+git clone git://github.com/ericaro/goneobin.git
+cd goneobin
+gpk compile
+</code>
+
