@@ -12,7 +12,7 @@ Neobin binary files always starts with a **magic number** to identify "neobin", 
 
 The generator comes as a simple executable
 
-The fileformat Schema (XSD is available [http://code.google.com/p/neobin/source/browse/src/main/resources/neobin_v1.xsd here] ) gets you  autocompletion in your favorite IDE
+The fileformat Schema (XSD is available <a href="http://code.google.com/p/neobin/source/browse/src/main/resources/neobin_v1.xsd"> here</a> ) gets you  autocompletion in your favorite IDE
 
 Both the fileformat, and the generated binary files can be read to and from <a href="http://code.google.com/p/neobin/">java</a>.
 
