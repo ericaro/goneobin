@@ -20,9 +20,9 @@ Visit the <a href="http://code.google.com/p/neobin/">neobin-java</a> website to 
 
 
 The code is available at http://www.gopack.me
-<code>
+<pre>
 git clone git://github.com/ericaro/goneobin.git
 cd goneobin
 gpk compile
-</code>
+</pre>
 
