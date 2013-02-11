@@ -1,0 +1,1 @@
+{"FormatVersion":"1.0.0","Name":"ericaro.net/gobin","Dependencies":[{"Name":"ericaro.net/gogrex","Version":"1.0.0-rc.1"}],"License":"Apache License 2.0"}

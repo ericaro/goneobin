@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neobin xmlns="http://neobin.ericaro.net/v1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <expression>name, (timestamp, ids, values)+, eof</expression>
+        <header>toto</header>
+        <name>Demo</name>
+        <package>net.ericaro.demo</package>
+        <transitions>
+                <transition name="name">
+                        <var type="string" name="name"/>
+                        <var type="string" name="address"/>
+                </transition>
+                <transition name="timestamp" >
+                        <var type="long" name="t"/>
+                </transition>
+                <transition name="ids">
+                        <var type="long" name="id" many="many"/>
+                </transition>
+                <transition name="values">
+                        <var type="float" name="x" many="many"/>
+                </transition>
+                <transition name="eof">
+                </transition>
+        </transitions>
+
+        <states>
+        <state path="">Simulation</state>
+        <state path="name">Data</state>
+        <state path="name.timestamp">Ids</state>
+        <state path="name.timestamp.ids">Values</state>
+        <state path="name.timestamp.ids.values">Loop</state>
+        </states>
+
+</neobin>
